@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ---Підключення--- -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans&family=Open+Sans:wght@500&family=Poppins:wght@400;500&family=Raleway:wght@500&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <!-- ----------------- -->
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrap__container">
+        <header>
+            <div class="header_logo">
+                <img id="logo" src="img/logo.png" alt="">
+            </div>
+            <div class="header_nav_menu">
+                <a class="nav_menu_btn" href="#">Falcon 9</a>
+                <a class="nav_menu_btn" href="#">Falcon Heavy</a>
+                <a class="nav_menu_btn" href="#">Dragon</a>
+                <a class="nav_menu_btn" href="#">Updates</a>
+            </div>
+            <div class="header_menu">
+                <a class="header_menu_btn" href="#">About</a>
+                <a class="header_menu_btn" href="#">Gallery</a>
+                <a class="header_menu_btn" href="#">Shop</a>
+            </div>
+            <!-- header adaptive -->
+            <div class="header_burger">
+                <div class="burger_part1"></div>
+                <div class="burger_part2"></div>
+                <div class="burger_part1"></div>
+            </div>
+            <!-- --------------- -->
+        </header>
+         <section class="section_falcon_heavy">
+             <h1 class="h1_section_falcon_heavy">Falcon Heavy</h1>
+             <p class="p_section_falcon_heavy">The most powerful operational rocket <br>
+                 in the world by a factor of two</p>
+             <img class="img_earth" src="img/earth3.png" alt="">
+             <img class="img_earth_adaptive" src="img/eart5.png" alt="">
+             <img class="img_earth_adaptive2" src="img/earth6.png" alt="">
+         </section>
+         <section class="section_roket section_rocket_adaptive">
+             <div class="section_rocket_txt">
+                 <h3 class="rocket_txt_h3">Falcon Heavy <br>
+                     Overview</h3>
+                 <div class="rocket_txt_characteristics">
+                     <div class="txt_characteristic_part1">
+                         <p class="part1_txt">HEIGHT</p>
+                         <p class="part1_txt">DIAMETER</p>
+                         <p class="part1_txt">MASS</p>
+                         <p class="part1_txt">PAYLOAD TO LEO</p>
+                         <p class="part1_txt">PAYLOAD TO GTO</p>
+                         <p class="part1_txt">PAYLOAD TO MARS</p>
+                     </div>
+                     <div class="txt_characteristic_part1">
+                         <p class="part1_txt">70 m / 229.6 ft</p>
+                         <p class="part1_txt">12.2 m / 39.9 ft</p>
+                         <p class="part1_txt">1,420,788 kg / 3,125,735 lb</p>
+                         <p class="part1_txt">63,800 kg / 140,660 lb</p>
+                         <p class="part1_txt">26,700 kg / 58,860 lb</p>
+                         <p class="part1_txt">16,800 kg / 37,040 lb</p>
+                     </div>
+                 </div>
+                 <h2 class="rocket_txt_h2">UNMATCHED <br>
+                    PERFORMANCE</h2>
+                 <p class="more_txt_rocket">With more than 5 million pounds of thrust at liftoff, Falcon Heavy is <br>
+                    the most capable rocket flying. By comparison, the liftoff thrust of <br>
+                    the Falcon Heavy equals approximately eighteen 747 aircraft at full <br>
+                    power. Falcon Heavy can lift the equivalent of a fully loaded 737 <br>
+                    jetliner—complete with passengers, luggage and fuel—to orbit.</p>
+             </div>
+             <div class="section_rocket_img">
+                <img class="img_rocket_adaptive" src="img/rocket2.png" alt="">
+                <img class="img_rocket" id="rocket" src="img/rocket4x.png" alt="">
+             </div>
+         </section>
+         <footer class="footer_contact">
+             <img src="img/logo.png" alt="">
+             <div class="footer_socialnetwork ters">
+                <p class="sicialnetwork">Twitter</p>
+                <p class="sicialnetwork">YouTube</p>
+                <p class="sicialnetwork">Instagram</p>
+                <p class="sicialnetwork">Flickr</p>
+                <p class="sicialnetwork">LinkedIn</p>
+                <p class="sicialnetwork">Privacy</p>
+                <p class="sicialnetwork">Policy</p>
+             </div>
+             <div class="footer_txt">
+                For additional questions, contact rideshare@spacex.com
+             </div>
+             <button class="footer_btn">Contact us</button>
+         </footer>
+    </div>
+    <script>
+        logo.onmousemove = function(){
+            logo.style.transform = 'scale(2.5)'
+            logo.style.transform = 'rotate(360deg)'
+            logo.style.transition = 'all 0.8s ease 0s'
+        }
+        logo.onmouseleave = function(){
+            logo.style.transform = 'none'
+
+        }
+    </script>
+</body>
+</html>
